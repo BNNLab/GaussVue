@@ -1,4 +1,4 @@
-# GaussVue ![GaussVue](images/GaussVue_logo_small.png)
+# ![GaussVue](images/GaussVue_logo.png) GaussVue
 
 Run from the project root:
 
