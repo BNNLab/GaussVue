@@ -155,7 +155,7 @@ export default function({data, parentElement, setStateValue, state}) {
   }
   if(window.$3Dmol) return build();
   const script = document.createElement('script');
-  script.src = 'https://3Dmol.org/build/3Dmol-min.js';
+  script.src = 'https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.5.5/3Dmol-min.js';
   script.onload = build;
   script.onerror = () => {status.textContent='3Dmol.js could not load.'};
   document.head.appendChild(script);
