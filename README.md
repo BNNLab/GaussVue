@@ -1,4 +1,4 @@
-# GaussVue
+# GaussVue ![GaussVue](iamges/GaussVue_logo_small.png)
 
 Run from the project root:
 
