@@ -11,8 +11,19 @@ css_file = Path(__file__).parent / "style.css"
 if css_file.is_file():
     st.markdown(f"<style>{css_file.read_text()}</style>", unsafe_allow_html=True)
 
-st.title("GaussVue")
-st.caption("Gaussian output analysis tool, and editing tool for Gaussian input files.")
+
+# st.image("images/GaussVue_logo_small.png")
+#st.caption("Gaussian output analysis tool, and editing tool for Gaussian input files.")
+col1, col2 = st.columns([3, 1])
+
+with col1:
+    st.title("GaussVue")
+    st.caption("Gaussian output analysis tool, and editing tool for Gaussian input files.")
+
+with col2:    
+    st.image("images/GaussVue_logo.png", use_container_width=True)
+
+
 
 with st.sidebar:
     logo = Path(__file__).parent / "images" / "BNNLab_v3.png"
