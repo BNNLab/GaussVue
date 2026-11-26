@@ -1,0 +1,3 @@
+.block-container {padding-top:1.2rem;max-width:1600px;}
+[data-testid="stMetric"] {background:#151e30;border:1px solid #34425a;border-radius:12px;padding:12px;color:white !important;}
+[data-testid="stMetric"] * {color:white !important;}
