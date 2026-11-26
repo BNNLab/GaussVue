@@ -50,7 +50,7 @@ def render(cube_file, fchk_file, numbers, coords, style, bg):
                     orbital_xyz=None
                 import json
                 payload=json.dumps({'cube':cube_text,'xyz':orbital_xyz,'iso':iso,'bg':bg,'style':style}).replace('</','<\\/')
-                html='''<!doctype html><html><head><script src="https://3Dmol.org/build/3Dmol-min.js"></script><style>html,body,#v{margin:0;width:100%;height:100%;background:#AABDE1}</style></head><body><div id="v"></div><script>
+                html='''<!doctype html><html><head><script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.5.5/3Dmol-min.js"></script><style>html,body,#v{margin:0;width:100%;height:100%;background:#AABDE1}</style></head><body><div id="v"></div><script>
     const p=PAYLOAD;const v=$3Dmol.createViewer('v',{backgroundColor:p.bg,antialias:true});
     if(p.xyz){v.addModel(p.xyz,'xyz')}else{v.addModel(p.cube,'cube')}
     v.setStyle({},{stick:{radius:0.14},sphere:{scale:0.27}});
