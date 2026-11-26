@@ -1,4 +1,5 @@
-# <img src="images/GaussVue_logo.png" alt="GaussVue" width="200"> GaussVue
+<img src="images/GaussVue_logo.png" alt="GaussVue" width="400"> 
+# GaussVue
 
 Run from the project root:
 
