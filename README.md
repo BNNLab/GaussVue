@@ -1,4 +1,4 @@
-# Gaussian Explorer (modular version)
+# GaussVue
 
 Run from the project root:
 
