@@ -13,7 +13,7 @@ def viewer(xyz=None, frames=None, cube=None, style='Ball and stick', bg='#AABDE1
     # Escape JSON in HTML script context.
     payload = json.dumps({'models': models, 'cube': cube, 'style': style,
                           'bg': bg, 'spin': spin, 'animate': animate, 'iso': iso}).replace('</', '<\\/')
-    html = '''<!doctype html><html><head><script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+    html = '''<!doctype html><html><head><script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.5.5/3Dmol-min.js"></script>
 <style>html,body,#viewer{height:100%;width:100%;margin:0;background:#AABDE1;overflow:hidden}</style></head>
 <body><div id="viewer"></div><script>
 const p=PAYLOAD;
