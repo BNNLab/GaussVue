@@ -1,4 +1,4 @@
-# ![GaussVue](images/GaussVue_logo.png) GaussVue
+# <img src="images/GaussVue_logo.png" alt="GaussVue" width="200"> GaussVue
 
 Run from the project root:
 
